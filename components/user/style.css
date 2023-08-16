@@ -1,0 +1,8 @@
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.css-1eaqvnp-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  max-height: calc(100% - 32px) !important;
+}

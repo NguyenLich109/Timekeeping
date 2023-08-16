@@ -1,0 +1,6 @@
+.page-item a{
+    padding: 4px 8px;
+}
+.page-item a:hover{
+    background-color: #00000014;
+}
