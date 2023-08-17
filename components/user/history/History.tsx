@@ -53,25 +53,25 @@ export default function History({
   return (
     <div className="">
       <div className="bg-[#f5f5f5] px-4">
-        <h1 className="pt-8 pb-4 text-4xl flex items-center">
+        <h1 className="text-[#000] pt-8 pb-4 text-4xl flex items-center">
           Lịch sử chấm công
         </h1>
         <ul className="flex border-b">
           <li className="-mb-px mr-1">
-            <span className="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700">
+            <span className="text-[#000] bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700">
               Lịch sử
             </span>
           </li>
         </ul>
       </div>
       <div className="px-4 pt-4">
-          <Table
-            columns={columns}
-            rows={rows}
-            page={timekeepings?.page}
-            pages={timekeepings?.pages}
-            url={"/user/historyAttendance"}
-          />
+        <Table
+          columns={columns}
+          rows={rows}
+          page={timekeepings?.page}
+          pages={timekeepings?.pages}
+          url={"/user/historyAttendance"}
+        />
       </div>
     </div>
   );

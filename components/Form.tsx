@@ -34,14 +34,14 @@ export default function Form({
           <div className="mb-3 mx-2 w-full">
             <label
               htmlFor="name"
-              className="block mb-2 text-base font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-base font-medium text-[#000] dark:text-white"
             >
               Họ tên
             </label>
             <input
               type="text"
               id="name"
-              className="border border-gray-300 rounded-md p-2 w-full"
+              className="border border-gray-300 text-[#000] rounded-md p-2 w-full"
               placeholder="Họ tên"
               defaultValue={user?.name}
             ></input>
@@ -49,13 +49,13 @@ export default function Form({
           <div className="mb-3 mx-2 w-full">
             <label
               htmlFor="sex"
-              className="block mb-2 text-base font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-base font-medium text-[#000] dark:text-white"
             >
               Giới tính
             </label>
             <input
               type="text"
-              className="border border-gray-300 rounded-md p-2 w-full"
+              className="border border-gray-300 text-[#000] rounded-md p-2 w-full"
               placeholder="Giới tính"
               defaultValue={user?.sex}
             ></input>
@@ -65,14 +65,14 @@ export default function Form({
           <div className="mb-3 mx-2 w-full">
             <label
               htmlFor="phone"
-              className="block mb-2 text-base font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-base font-medium text-[#000] dark:text-white"
             >
               Số điện thoại
             </label>
             <input
               type="text"
               id="phone"
-              className="border border-gray-300 rounded-md p-2 w-full"
+              className="border border-gray-300 text-[#000] rounded-md p-2 w-full"
               placeholder="Số điện thoại"
               defaultValue={user?.phone}
             ></input>
@@ -80,14 +80,14 @@ export default function Form({
           <div className="mb-3 mx-2 w-full">
             <label
               htmlFor="key_login"
-              className="block mb-2 text-base font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-base font-medium text-[#000] dark:text-white"
             >
               Tài khoản đăng nhập
             </label>
             <input
               type="text"
               id="key_login"
-              className="border border-gray-300 rounded-md p-2 w-full"
+              className="border border-gray-300 text-[#000] rounded-md p-2 w-full"
               placeholder="Tài khoản đăng nhập"
               defaultValue={user?.key_login}
             ></input>
@@ -97,14 +97,14 @@ export default function Form({
           <div className="mb-3 mx-2 w-full">
             <label
               htmlFor="cmnd"
-              className="block mb-2 text-base font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-base font-medium text-[#000] dark:text-white"
             >
               CMND
             </label>
             <input
               type="text"
               id="cmnd"
-              className="border border-gray-300 rounded-md p-2 w-full"
+              className="border border-gray-300 text-[#000] rounded-md p-2 w-full"
               placeholder="CMND"
               defaultValue={user?.cmnd}
             ></input>
@@ -112,14 +112,14 @@ export default function Form({
           <div className="mb-3 mx-2 w-full">
             <label
               htmlFor="address"
-              className="block mb-2 text-base font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-base font-medium text-[#000] dark:text-white"
             >
               Địa chỉ
             </label>
             <input
               type="text"
               id="address"
-              className="border border-gray-300 rounded-md p-2 w-full"
+              className="border border-gray-300 text-[#000] rounded-md p-2 w-full"
               placeholder="Địa chỉ"
               defaultValue={user?.address}
             ></input>

@@ -37,7 +37,7 @@ export default function ModalNavbar({
         } z-50`}
       >
         <span
-          className="flex justify-end py-4 px-4 cursor-pointer text-xl font-semibold"
+          className="flex justify-end py-4 px-4 cursor-pointer text-xl font-semibold text-[#000]"
           onClick={handleDrawerToggle}
         >
           <CloseOutlined className="text-xl" />
@@ -51,10 +51,10 @@ export default function ModalNavbar({
                 }`}
               >
                 <div className="flex items-center">
-                  <p className="text-base pr-2 flex justify-center">
+                  <p className="text-base pr-2 flex justify-center text-[#000]">
                     {data.icon}
                   </p>
-                  <p className="text-lg">{data.text}</p>
+                  <p className="text-lg text-[#000]">{data.text}</p>
                 </div>
               </li>
             </Link>

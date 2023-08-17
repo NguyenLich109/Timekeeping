@@ -35,7 +35,9 @@ export default function Login() {
   };
   return (
     <div className="flex justify-center flex-col my-[200px] md:px-4">
-      <h1 className="text-center text-[1.8rem] font-semibold pb-3">Log In </h1>
+      <h1 className="text-center text-[1.8rem] font-semibold pb-3 text-black">
+        Log In{" "}
+      </h1>
       <span className="text-lg text-red-500 text-center">{value?.message}</span>
       <form
         className="w-full max-w-sm mx-auto"

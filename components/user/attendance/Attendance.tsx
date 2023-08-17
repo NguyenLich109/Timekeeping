@@ -51,13 +51,15 @@ export default function Attendance({
   return (
     <div className="">
       <div className="bg-[#f5f5f5] px-4">
-        <h1 className="pt-8 pb-4 text-4xl flex items-center">
-          <Link href="/user/historyAttendance">Lịch sử chấm công</Link>
+        <h1 className="pt-8 pb-4 text-4xl flex items-center text-[#000]">
+          <Link href="/user/historyAttendance/1" className="text-[#000]">
+            Lịch sử chấm công
+          </Link>
           <span className="text-sm text-red-500">(Xem thêm)</span>
         </h1>
         <ul className="flex border-b">
           <li className="-mb-px mr-1">
-            <span className="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700">
+            <span className="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 text-[#000]">
               Chấm công
             </span>
           </li>
@@ -65,8 +67,10 @@ export default function Attendance({
       </div>
       <div className="grid grid-cols-3 gap-4 px-4 pt-4">
         <div className="md:col-span-3">
-          <h1 className="font-semibold text-xl py-2">Thông tin chấm công</h1>
-          <span>
+          <h1 className="font-semibold text-xl py-2 text-[#000]">
+            Thông tin chấm công
+          </h1>
+          <span className="text-[#000]">
             Nhập các thông tin đây đủ của bạn để tiến hành chấm công vào - ra hệ
             thống
           </span>
@@ -74,7 +78,7 @@ export default function Attendance({
         <div className="col-span-2 md:col-span-3">
           <div className="grid grid-cols-2 gap-6 ">
             <div className="md:col-span-2">
-              <h1 className="font-semibold text-xl py-2">
+              <h1 className="font-semibold text-xl py-2 text-[#000]">
                 Ca đã chọn{" "}
                 <span className="text-sm1 text-blue font-normal cursor-pointer">
                   (Chọn ca khác)
@@ -104,7 +108,9 @@ export default function Attendance({
               {!chooseShift && check && (
                 <p className="text-red-500 text-sm1">Vui lòng chọn ca làm</p>
               )}
-              <h1 className="font-semibold text-base py-2">Ghi chú:</h1>
+              <h1 className="font-semibold text-base py-2 text-[#000]">
+                Ghi chú:
+              </h1>
               <textarea
                 name="ghi_chu"
                 className="border outline-none text-sm1 w-full"
